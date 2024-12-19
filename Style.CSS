@@ -1,0 +1,22 @@
+body {
+background-color: darkcyan;
+    background-image: url("Bugatti.jpeg");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-attachment: fixed;
+}
+
+
+#Gradient{
+    height: 200px;
+background: linear-gradient(to left, Blue, Red, Green);
+}
+
+/* The animation code of CSS is Here: */
+
+@keyframes Example{
+    0% {background-color: Cyan;}
+    25%  {background-color:Yellow}
+    50% {background-color:Red}
+    75% {background-color:Green}
+}
